@@ -1,5 +1,4 @@
 <?php
-session_start();
 $dbhost = 'localhost';
 $dbname = 'name';
 $dbuser = 'root';
