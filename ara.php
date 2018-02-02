@@ -47,8 +47,8 @@ if ($_POST) {
                 <td style="width:300px; border: 1px solid #eee; padding:5px; font-size:15px;"><?php echo $m["konu_ekleyen"]; ?></td>
                 <td style="width:300px; border: 1px solid #eee; padding:5px; font-size:15px;"><?php echo $m["konu_tarih"]; ?></td>
                 <td style="width:300px; border: 1px solid #eee; padding:5px; font-size:15px;">
-                <a href="?do=düzenle&idduzenle=<?php echo $m["id"] ?>">Düzenle</a>  /
-                <a onclick="return confirm('Konuyu Silmek İstediğine Emin Misin ?');" href="?do=sil&idsil=<?php echo $m["id"] ?>">Sil</a>
+                <a href="?selection=düzenle&idduzenle=<?php echo $m["id"] ?>">Düzenle</a>  /
+                <a onclick="return confirm('Konuyu Silmek İstediğine Emin Misin ?');" href="?selection=sil&idsil=<?php echo $m["id"] ?>">Sil</a>
                 </td>
               </tr>
             </tbody>
