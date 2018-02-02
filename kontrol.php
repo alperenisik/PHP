@@ -7,7 +7,7 @@ if ($_POST) {
 
 
   $dbhost = 'localhost';
-  $dbname = 'blog';
+  $dbname = 'name';
   $dbuser = 'root';
   $dbpass = '';
 
